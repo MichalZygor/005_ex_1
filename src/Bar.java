@@ -10,11 +10,7 @@ public class Bar {
 
         Barman barman = new Barman();
         barman.order(person1, drink1);
-
-        Barman barman1 = new Barman();
         barman.order(person2, drink2);
-
-        Barman barman2 = new Barman();
         barman.order(person3, drink3);
     }
 }
